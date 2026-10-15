@@ -23,4 +23,5 @@ jobs:
           cache: maven
 
       - name: Executar testes com Maven
+        working-directory: teste-junit
         run: mvn -B clean test
